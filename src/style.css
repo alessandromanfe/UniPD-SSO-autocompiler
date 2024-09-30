@@ -1,0 +1,38 @@
+body {
+    height: 200px;
+    width: 300px;
+    background-color: #9b0014;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#ffffff;
+  }
+#formdiv {
+    height: 135px;
+    width: 280px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    position: absolute;
+    bottom: 0px;    
+}
+
+#unipdimg {
+    float:left;
+    height: 50px;
+}
+
+#ssoimg {
+    float:right;
+    height: 40px;
+    width: 100px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+#submitBtn {
+    margin-left: 105px;
+    width: 70px;
+}
+
+#form1 {
+    margin-top: 10px;
+}

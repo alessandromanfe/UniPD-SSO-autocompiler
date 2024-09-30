@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <link rel="stylesheet" href=style.css></link>
+      <script type="text/javascript" src="storage.js"></script>
+  </head>
+  <body>
+    <img id="ssoimg" src="sso_logo.png">
+    <img id="unipdimg" src="unipd_logo.png">
+    <div id="formdiv">
+      <p1 style="color:rgba(255, 255, 255, 0.66); font-size: large; margin-left: 35px;">
+        Unipd SSO auto compiler<br>
+      </p1>
+        <form id="form1">
+            <label for="uname" style="margin-left: 15px;">Username:</label>
+            <input type="text" id="uname" name="uname">
+            <br>
+            <div style="margin-top: 5px;">
+              <input type="radio" id="radio1" name="radio" value="radio1" checked style="margin-left: 100px;">
+              <label for="radio1" style="margin-left: 0px;">@unipd.it:</label>
+              <br>
+              <input type="radio" id="radio2" name="radio" value="radio2" style="margin-left: 80px;">
+              <label for="radio2">@studenti.unipd.it:</label>
+            </div>
+            <br>
+            <input type="submit" id="submitBtn" value="Submit">
+          </form>
+    </div>
+  </body>
+</html>

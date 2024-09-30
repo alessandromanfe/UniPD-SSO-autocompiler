@@ -1,0 +1,24 @@
+{
+    "name":"UniPD AutoLog",
+    "description":"UnipD Login Autocompiler",
+    "version":"1.0",
+    "manifest_version":3,
+    "content_scripts":[
+        {
+            "matches":["https://shibidp.cca.unipd.it/*"],
+            "js":["autocompiler.js"]
+        }
+    ],
+    "permissions": [
+        "storage",
+        "activeTab",
+        "scripting"
+    ],
+    "action":{
+        "default_popup":"popup.html"
+    },
+    "icons": {
+        "128": "icon-128.png"
+    }
+    
+}
